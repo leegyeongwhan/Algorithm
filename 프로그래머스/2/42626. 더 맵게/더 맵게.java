@@ -9,7 +9,7 @@ class Solution {
         }
         
         
-        while(q.size() > 1 ) {
+        while(q.size() > 1 || q.peek() > K) {
           //      System.out.println(q);
                 if(q.peek() >= K){
                     break;
