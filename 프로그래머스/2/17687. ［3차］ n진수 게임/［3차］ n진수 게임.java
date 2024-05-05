@@ -33,11 +33,8 @@ class Solution {
             str = new StringBuilder(new StringBuilder(str.toString()).reverse().toString());
             for (int i = 0; i < str.length(); i++) {
                 if (arr.size() < t * m) {
-                    if (str.charAt(i) >= 'A' && str.charAt(i) <= 'F') {
-                        arr.add(String.valueOf(str.charAt(i)));
-                    } else {
-                        arr.add(String.valueOf(str.charAt(i)));
-                    }
+                                      arr.add(String.valueOf(str.charAt(i)));
+
                 } else {
                     break;
                 }
